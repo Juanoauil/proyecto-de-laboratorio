@@ -1,0 +1,17 @@
+
+
+
+
+@media screen and (min-width: 768px) {
+    @import 'variables';
+    @import 'reset';
+    @import 'layout';
+
+    @import 'nav';
+    @import 'form';
+    @import 'dot_dinamico';
+}
+
+
+
+//@import 'pruebas'

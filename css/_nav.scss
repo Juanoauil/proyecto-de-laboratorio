@@ -1,0 +1,12 @@
+body .container ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+    a{
+        color: $colorTexto;
+    }
+
+    a:hover{
+        color: $colorHover;
+    }

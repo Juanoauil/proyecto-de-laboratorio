@@ -1,0 +1,16 @@
+
+.dot__dinamico {
+    opacity: 0;
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background: $colorHover;
+    margin: 0 auto 7px;
+    transition-duration: .2s;
+    }
+
+
+    a:hover + .dot__dinamico{
+        display: block;
+        opacity: 1;
+    }
