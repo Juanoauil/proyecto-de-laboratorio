@@ -249,39 +249,39 @@
 @media screen and (min-width: 768px) {
 
   .header {
-    -ms-grid-row: 1;
-    -ms-grid-column: 1;
+    grid-row: 1;
+    grid-column: 1;
     -ms-grid-column-span: 6;
   }
 
   .nav {
-    -ms-grid-row: 2;
-    -ms-grid-column: 1;
+    grid-row: 2;
+    grid-column: 1;
     -ms-grid-column-span: 6;
   }
 
   .section {
-    -ms-grid-row: 3;
+    grid-row: 3;
     -ms-grid-row-span: 2;
-    -ms-grid-column: 1;
+    grid-column: 1;
     -ms-grid-column-span: 4;
   }
 
   .aside {
-    -ms-grid-row: 4;
-    -ms-grid-column: 5;
+    grid-row: 4;
+    grid-column: 5;
     -ms-grid-column-span: 2;
   }
 
   .aside__form {
-    -ms-grid-row: 3;
-    -ms-grid-column: 5;
+    grid-row: 3;
+    grid-column: 5;
     -ms-grid-column-span: 2;
   }
 
   .footer {
-    -ms-grid-row: 5;
-    -ms-grid-column: 1;
+    grid-row: 5;
+    grid-column: 1;
     -ms-grid-column-span: 6;
   }
 }
